@@ -1,0 +1,120 @@
+    /*Нульовий стиль*/
+    *{padding: 0;margin: 0;border: 0;}
+    *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+    :focus,:active{outline: none;}
+    a:focus,a:active{outline: none;}
+    nav,footer,header,aside{display: block;}
+    html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+    input,button,textarea{font-family:inherit;}
+    input::-ms-clear{display: none;}
+    button{cursor: pointer;}
+    button::-moz-focus-inner {padding:0;border:0;}
+    a,a:visited{text-decoration: none;}
+    a:hover{text-decoration: none;}
+    ul li{list-style: none;}
+    img{vertical-align: top;}
+    h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+    /*--------------------*/
+
+.space-img{
+  width: 30% ;
+  height: 30%;
+  margin: 1%;
+}
+
+main{
+  background: rgb(255, 242, 175);
+ border-radius: 30px;
+ padding: 1%;
+}
+
+.page-1{
+  background: rgb(17,156,131);
+  background: linear-gradient(90deg, rgb(242, 205, 153) 17%, rgb(89, 96, 219) 51%, rgb(248, 92, 131) 86%);
+margin: 4% 5%;
+padding: 5%;
+border-radius: 9%;
+}
+
+body{
+  background: url(../img/bg_pages_all.jpg) ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.breadcrumb-item,.text,.text-center{
+  color: rgb(255, 240, 219);
+text-shadow: 1px 1px 6px rgb(0, 0, 0);
+}
+
+footer{
+  border-radius: 12%;
+  margin: 3%;
+  background: #fca37d;
+}
+.breadcrumb-item{
+  color: rgb(255, 240, 219);
+}
+
+.card {
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  user-select: none;
+
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.container, .card-body{
+margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
